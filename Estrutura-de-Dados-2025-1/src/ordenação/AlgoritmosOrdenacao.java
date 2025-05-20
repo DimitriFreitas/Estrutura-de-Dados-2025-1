@@ -1,4 +1,4 @@
-package ordenacao;
+package ordenação;
 
 public class AlgoritmosOrdenacao {
 
