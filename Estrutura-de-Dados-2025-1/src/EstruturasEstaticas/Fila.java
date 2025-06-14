@@ -1,3 +1,4 @@
+package EstruturasEstaticas;
 
 public class Fila {
     private int[] dados;

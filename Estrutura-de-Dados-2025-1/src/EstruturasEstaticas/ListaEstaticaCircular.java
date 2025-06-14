@@ -1,3 +1,5 @@
+package EstruturasEstaticas;
+
 public class ListaEstaticaCircular {
     private int[] dados;
     private int tamanho;

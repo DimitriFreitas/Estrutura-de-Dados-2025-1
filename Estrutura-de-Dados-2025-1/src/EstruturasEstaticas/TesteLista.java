@@ -1,3 +1,5 @@
+package EstruturasEstaticas;
+
 public class TesteLista {
     public static void main(String[] args) {
         ListaEstaticaCircular lista = new ListaEstaticaCircular(10);

@@ -1,3 +1,4 @@
+package EstruturasEstaticas;
 
 public class Pilha {
     private int[] dados;
