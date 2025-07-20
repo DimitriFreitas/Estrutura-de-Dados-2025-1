@@ -5,11 +5,13 @@ public class No<T> {
     private No<T> direita;
     private No<T> esquerda;
     private No<T> genitor;
+    private int altura;
 
     public No(T novoValor) {
         this.valor = novoValor;
         this.direita = null;
         this.esquerda = null;
+        this.altura = 0;
     }
 
     public T getValor() {
@@ -42,5 +44,13 @@ public class No<T> {
 
     public void setGenitor(No<T> genitor) {
         this.genitor = genitor;
+    }
+
+    public int getAltura() {
+        return altura;
+    }
+
+    public void setAltura(int altura) {
+        this.altura = altura;
     }
 }
